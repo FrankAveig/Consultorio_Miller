@@ -1,0 +1,147 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.header,.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    list-style: none;
+
+}
+.menu li{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.menu a{
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #1D93C6;
+}
+.menu a:hover{
+    color: #59BCE7;
+}
+.menu a:active{
+    color: #EA9A2A;
+}
+.header figure{
+    width: 150px;
+}
+.header figure img{
+    width: 100%;
+}
+
+.hero img{
+    width: 100%;
+}
+.bienvenida{
+    margin-top: 50px;
+}
+.bienvenida .bienvenida__img{
+    display: flex;
+}
+.bienvenida__texto{
+    display: flex;
+    flex-direction: column;
+}
+.bienvenida__texto h1{
+    font-size: 45px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+.bienvenida__texto p{
+    font-size: 20px;
+}
+.bienvenida img{
+    width: 100%;
+    margin: auto;
+}
+.bienvenida p{
+    text-align: justify;
+    color: #707070;
+    font-weight: 400;
+}
+
+.enganche{
+    height: 200px;
+    text-align: center;
+    background-color: #019fe3eb;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.enganche h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+.enganche p{
+    font-family: 'Lato', sans-serif;
+    font-size:32px;
+}
+.servicios{
+    text-align: center;
+    margin-top: 50px;
+}
+.servicios img{
+    width: 200px;
+}
+
+.servicios h3 img{
+    width: 40px;
+    
+}
+.galeria{
+    margin: 50px auto ;
+    text-align: center;
+
+}
+.galeria__container{
+    margin-top: 30px;
+    display: grid;
+    grid-gap: 4px;
+    grid-template-columns: repeat(4,1fr);
+}
+.galeria img{
+    width: 100%;
+}
+.equipo{
+    text-align: center;
+}
+.equipo img{
+    margin: 50px 50px 20px 50px;
+    border-radius: 0 20px 0 20px;
+    width: 70%;
+    
+}
+.equipo__contenedor h3{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.equipo__contenedor{
+    box-shadow: 2px 3px 37px 8px rgba(179,166,166,0.75);
+    -webkit-box-shadow: 2px 3px 37px 8px rgba(179,166,166,0.75);
+    -moz-box-shadow: 2px 3px 37px 8px rgba(179,166,166,0.75);
+}
+footer{
+    margin-top: 50px;
+    background-color: #212529;
+    text-align: center;
+    color: white;
+}
+
+footer img{
+    width: 150px;
+}
+
+footer i{
+    color: white;
+    font-size: 30px;
+    margin: 0 10px;
+    margin-bottom: 30px;
+}
