@@ -22,6 +22,15 @@ body{
     letter-spacing: 2px;
     color: #1D93C6;
 }
+.menu2 a{
+    text-decoration: none!important;
+    font-weight: 600!important;
+    letter-spacing: 2px!important;
+    color: #1D93C6!important;
+}
+.menu2{
+    display: none;
+}
 .menu a:hover{
     color: #59BCE7;
 }
@@ -144,4 +153,51 @@ footer i{
     font-size: 30px;
     margin: 0 10px;
     margin-bottom: 30px;
+}
+
+@media(max-width:1200px){
+    .bienvenida{
+        margin-bottom: 20px;
+    }
+    .bienvenida .bienvenida__img{
+        display: none;
+    }
+    .bienvenida__texto button{
+        width: 500px;
+        margin: auto;
+    }
+    .equipo img{
+        margin: 50px 0 20px 0;
+    }
+}
+
+@media(max-width:900px){
+    .menu{
+        display: none;
+    }
+    .menu2{
+        display: block;
+    }
+    .menu2 a{
+        display: flex;
+        justify-content: center;
+    }
+    .header{
+        flex-direction: column;
+    }
+    
+    body > header > nav.menu2.navbar.navbar-expand-lg.navbar-light.navegacion > div{
+        justify-content: center!important;
+    }
+    
+
+}
+@media(max-width:770px){
+    .persona{
+        margin: 20px 0 20px 0;
+    }
+    .galeria__container{
+        margin: 0 20px;
+        grid-template-columns: repeat(2,1fr);
+    }
 }
