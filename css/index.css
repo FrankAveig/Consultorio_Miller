@@ -57,6 +57,12 @@ body{
     display: flex;
     flex-direction: column;
 }
+.bienvenida__texto a{
+    width: 100%;
+}
+.bienvenida__texto button{
+    width: 100%;
+}
 .bienvenida__texto h1{
     font-size: 45px;
     font-family: 'Lato', sans-serif;
@@ -214,6 +220,10 @@ footer i{
     .bienvenida .bienvenida__img{
         display: none;
     }
+    .bienvenida__texto a{
+        width: 500px;
+        margin: auto;
+    }
     .bienvenida__texto button{
         width: 500px;
         margin: auto;
@@ -247,6 +257,10 @@ footer i{
 
 }
 @media(max-width:770px){
+    .bienvenida__texto a{
+        width: 300px;
+        margin: auto;
+    }
     .bienvenida__texto button{
         width: 300px;
     }
